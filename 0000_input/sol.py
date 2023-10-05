@@ -6,10 +6,10 @@ TC = int(input()) #TestCase
 for i in range(TC):
     num = int(input())
 
-if num % 2 == 1:
-    print('홀수')
-else:
-    print('짝수')
+    if num % 2 == 1:
+        print('홀수')
+    else:
+        print('짝수')
 
 # 1차원 리스트 input받기
 # numbers = input().split()
@@ -27,4 +27,4 @@ numbers = list(map(int, input().split()))
 
 for number in numbers:
     if number % 2 == 1:
-        print(f'{numbers}은 홀수입니다.)
+        print(f'{numbers}은 홀수입니다.')
