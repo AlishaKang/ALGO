@@ -11,7 +11,7 @@ def search(P, target):
         mid = int((left + right) / 2)
         if mid == target:
             break
-        elif mid < target:   0 t 200  400
+        elif mid < target:   
             left = mid
             count += 1
         elif mid > target:
