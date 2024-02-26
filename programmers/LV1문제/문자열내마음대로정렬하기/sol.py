@@ -1,3 +1,1 @@
-def solution(strings, n):
-    answer = []
-    return answer
+solution = lambda strings, n : sorted(strings, key = lambda x:x[n]+x)
